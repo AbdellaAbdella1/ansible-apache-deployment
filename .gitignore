@@ -1,0 +1,17 @@
+cat > .gitignore << 'EOF'
+# Ansible
+*.retry
+*.vault
+.vault_pass.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+EOF
